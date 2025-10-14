@@ -1,0 +1,71 @@
+{
+	"id": "6e2303be-ce36-41c4-b7c5-a8a9ed9302b6",
+	"name": "LOGIN API",
+	"timestamp": "2025-10-13T10:57:26.896Z",
+	"collection_id": "31796820-47192860-37fc-4c82-9b59-3c29f5540983",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-13T10:57:25.840Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9dc32d67-67e5-44c6-9bc1-98619597775c",
+			"name": "New Request",
+			"url": "https://reqres.in/api/login",
+			"time": 327,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains token": true,
+				"Response time is less than 2000ms": true,
+				"Content-Type header is JSON": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains token": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is JSON": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				327
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains token": true,
+					"Response time is less than 2000ms": true,
+					"Content-Type header is JSON": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 327,
+	"collection": {
+		"requests": [
+			{
+				"id": "9dc32d67-67e5-44c6-9bc1-98619597775c",
+				"method": "POST"
+			}
+		]
+	}
+}

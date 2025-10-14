@@ -1,0 +1,44 @@
+{
+	"id": "3e575220-0ec8-471d-8ba9-6da39a477199",
+	"name": "Weather API tests",
+	"timestamp": "2025-10-13T10:55:14.820Z",
+	"collection_id": "31796820-7725375f-0ea7-455c-8c22-b5499ff9fd03",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-13T10:55:13.714Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2b4a9a8c-d49f-4b50-b5f9-e33a7c5ef1f4",
+			"name": "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={{Weather API tests}}}",
+			"url": "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=05162e14994b2ae734f671b9452d0d55}&appid=AUTH_VALUE",
+			"time": 177,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				177
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 177,
+	"collection": {
+		"requests": [
+			{
+				"id": "2b4a9a8c-d49f-4b50-b5f9-e33a7c5ef1f4",
+				"method": "GET"
+			}
+		]
+	}
+}
